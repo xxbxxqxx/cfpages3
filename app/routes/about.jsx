@@ -1,5 +1,5 @@
 import Title from "../components/Title";
-import { json } from "@remix-run/node";
+import { json } from "@remix/cloudflare";
 import { useLoaderData } from "@remix-run/react";
 import { client } from "../models/contentful.server";
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer';
