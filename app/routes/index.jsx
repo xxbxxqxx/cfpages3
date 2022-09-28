@@ -1,6 +1,6 @@
 import { TextLoop } from "react-text-loop-next";
 import { motion } from 'framer-motion';
-import { json } from "@remix-run/node";
+import { json } from "@remix/cloudflare";
 import { useLoaderData } from "@remix-run/react";
 import { client } from "../models/contentful.server";
 //import {FaGithub, FaLinkedin, FaTwitter, FaTwitch, FaYoutube} from 'react-icons/fa';
