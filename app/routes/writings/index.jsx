@@ -1,6 +1,6 @@
 import Title from "../../components/Title";
 import { client } from "../../models/contentful.server";
-import { json } from "@remix-run/node";
+import { json } from "@remix-run/cloudflare";
 import { Link, useLoaderData } from "@remix-run/react";
 
 export async function loader() {
