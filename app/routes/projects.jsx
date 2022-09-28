@@ -1,4 +1,4 @@
-import { json } from "@remix/cloudflare";
+import { json } from "@remix-run/cloudflare";
 import { useLoaderData } from "@remix-run/react";
 import Title from "../components/Title";
 import { client } from "../models/contentful.server";
